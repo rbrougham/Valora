@@ -1,77 +1,92 @@
 /* Base Styles */
 body {
-    font-family: 'Segoe UI', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f7f9;
-    color: #333;
-    line-height: 1.6;
-  }
-  
-  .container {
-    width: 90%;
-    max-width: 1200px;
-    margin: auto;
-    padding: 20px 0;
-  }
-  
-  /* Header */
-  header {
-    background: linear-gradient(135deg, #1a73e8, #4285f4);
-    color: white;
-    padding: 60px 0;
-    text-align: center;
-  }
-  
-  header h1 {
-    margin: 0;
-    font-size: 3em;
-  }
-  
-  header p {
-    font-size: 1.2em;
-    margin-top: 10px;
-  }
-  
-  /* Navigation */
-  nav {
-    background: #fff;
-    border-bottom: 1px solid #ddd;
-    padding: 10px 0;
-  }
-  
-  nav a {
-    margin: 0 15px;
-    text-decoration: none;
-    color: #1a73e8;
-    font-weight: 500;
-  }
-  
-  nav a:hover {
-    text-decoration: underline;
-  }
-  
-  /* Sections */
-  section {
-    padding: 40px 0;
-  }
-  
-  section h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
-    color: #1a73e8;
-  }
-  
-  ul {
-    list-style: disc inside;
-  }
-  
-  /* Footer */
-  footer {
-    background: #e0e0e0;
-    text-align: center;
-    padding: 20px 0;
-    font-size: 0.9em;
-    color: #555;
-  }
-  
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f7f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px 0;
+}
+
+/* Header */
+header {
+  background: linear-gradient(135deg, #1a237e, #3949ab);
+  color: white;
+  padding: 60px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 3em;
+}
+
+header p {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+/* Navigation */
+nav {
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #3949ab;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Sections */
+section {
+  padding: 40px 0;
+}
+
+section h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #3949ab;
+}
+
+ul {
+  list-style: disc inside;
+}
+
+/* Vault Feature Box */
+.vault-feature {
+  background-color: #ffffff;
+  border: 1px solid #cfd8dc;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  margin-top: 20px;
+}
+
+.vault-feature h3 {
+  color: #1a237e;
+  margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+  background: #e0e0e0;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 0.9em;
+  color: #555;
+}
